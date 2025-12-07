@@ -582,6 +582,30 @@ p code, li code {
     font-style: italic;
 }
 
+.qrcode-container {
+    margin: 2rem 0;
+    text-align: center;
+    padding: 1.5rem;
+    background: rgba(0, 255, 191, 0.05);
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+}
+
+.qrcode-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.qrcode-caption {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    font-size: 0.95rem;
+    color: var(--accent);
+    font-weight: 500;
+}
+
 @media (max-width: 768px) {
     h1 { font-size: 2rem; }
     h2 { font-size: 1.5rem; }
