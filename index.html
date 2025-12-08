@@ -17,6 +17,7 @@
             <li><a href="#ch3">第三章：設計與使用者</a></li>
             <li><a href="#ch4">第四章：系統本體論</a></li>
             <li><a href="#ch5">第五章：驅使者與專家</a></li>
+            <li><a href="#ch5-0">5.0 第零階段：點火</a></li>
             <li><a href="#conclusion">結語</a></li>
             <li><a href="#appendix-a">附錄 A：遞迴的驗證</a></li>
             <li><a href="#appendix-b">附錄 B：認知實驗</a></li>
@@ -34,7 +35,7 @@
             </div>
             <div class="hero-meta">
                 <span>AUTHOR: Jay</span>
-                <span>VERSION: v2.8 Final</span>
+                <span>VERSION: v2.9 Final</span>
                 <span>STATE: Living Document</span>
             </div>
             <h1>代碼的淬鍊：<br>從需求迷霧至通用基石的<br><span style="color:var(--accent)">「相變」過程</span></h1>
@@ -43,9 +44,11 @@
                 <p><strong>摘要：</strong>本文揭露了一套「代碼（文本）實踐迭代」的方法論與真實紀錄。這不僅是技術觀點的闘述，更是一場思維模型的相變實驗。值得注意的是，本文的內文本身亦經過了反覆的遞迴與淬鍊，誠實地展示了從需求迷霧中提煉出通用基石的過程，以及作者如何利用 AI 作為顯微鏡與加速器，實現從被動消費者到主動驅使者的轉變。</p>
                 <div class="reading-guide">
                     <p><strong>閱讀建議：</strong></p>
-                    <ul>
+                      <ul>
                         <li>如果你想快速了解方法論，請直接閱讀正文（第一至五章）</li>
+                        <li>如果你想立刻開始實踐，請先閱讀 <strong><a href="#ch5-0">5.0 節</a></strong>，使用工具後再繼續</li>
                         <li>如果你對「AI 與人類協作的哲學」感興趣，請務必閱讀 <a href="#appendix-b">附錄 B：認知實驗</a></li>
+                        <li><strong>如果你使用了 5.0.2 的工具，請務必閱讀 <a href="#appendix-b-6">附錄 B.6</a></strong></li>
                         <li>如果你想了解這篇文章的「生產過程」，請閱讀 <a href="#appendix-a">附錄 A：專家會議記錄</a></li>
                     </ul>
                 </div>
@@ -467,10 +470,8 @@
             </div>
 
             <p>整篇文章的靈魂在於「我」：我有怎樣的行為？我從中間提取了什麼？釋放了什麼？</p>
-            
-            <!-- ========================================== -->
-            <!-- 👇 新增內容開始 (START OF NEW CONTENT) 👇 -->
-            <!-- ========================================== -->
+            <!-- START OF NEW SECTION 5.0 -->
+            <p>整篇文章的靈魂在於「我」：我有怎樣的行為？我從中間提取了什麼？釋放了什麼？</p>
 
             <div class="note-box" style="border-left-color: var(--accent); background: rgba(var(--accent-rgb), 0.05);">
                 <strong>【讀者提問】</strong><br>
@@ -482,13 +483,13 @@
 
             <hr style="border:0; border-top:1px dashed #ccc; margin: 2rem 0;">
 
-            <h3>5.0 第零階段：點火——以 AI 為鏡，洞悉意圖 (Ignition & Calibration)</h3>
+            <h3 id="ch5-0">5.0 第零階段：點火——以 AI 為鏡，洞悉意圖 (Ignition & Calibration)</h3>
 
             <p><strong>一切的起點，往往不是「指令」，而是「困惑」。</strong></p>
             <p>當你不知道該做什麼，或者只有一個模糊的焦慮時，這正是 AI 發揮最大價值的時刻。不要急著讓 AI 寫代碼，也不要急著解決問題。</p>
             <p><strong>你要做的第一件事，是讓 AI 幫你「搞清楚你到底想問什麼」。</strong></p>
 
-            <h4>核心心法：意圖洞悉 (Intent Penetration)</h4>
+            <h4>5.0.1 核心心法：意圖洞悉 (Intent Penetration)</h4>
             <p>AI 擁有強大的語境分析能力，它可以作為一面鏡子，照出你思維中的邏輯裂縫與矛盾。</p>
             <p>請隨時把這段<strong>「元提示 (Meta-Prompt)」</strong>放在身邊，作為你與 AI 對話的第一句：</p>
 
@@ -518,9 +519,105 @@
 
             <hr style="border:0; border-top:1px dashed #ccc; margin: 2rem 0;">
 
-            <!-- ========================================== -->
-            <!-- 👆 新增內容結束 (END OF NEW CONTENT) 👆 -->
-            <!-- ========================================== -->
+            <h4>5.0.2 實踐工具：三層意圖校準器</h4>
+            
+            <div class="note-box">
+                <strong>【讀者提問】</strong><br>
+                「我看懂了『啟動咒語』的概念，但我還是不知道具體該怎麼用？不同情況下該說什麼？」
+            </div>
+            
+            <p>為了讓你能立刻開始實踐，我準備了三個工具。<strong>但請注意：不要一次看完三個工具。</strong></p>
+
+            <h5>🔰 工具選擇器：你現在在哪一層？</h5>
+            <table class="comparison-table">
+                <thead>
+                    <tr><th>你的狀態</th><th>使用工具</th><th>何時使用</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>完全不知道該問什麼，腦子一片空白</td><td>🧩 意圖探索器</td><td>極度混沌狀態</td></tr>
+                    <tr><td>有模糊的想法，但不知道怎麼表達</td><td>🔍 意圖校準器</td><td>一般困惑狀態</td></tr>
+                    <tr><td>知道問題類別，但細節不清楚</td><td>🎯 意圖校準器 Pro</td><td>有方向但需聚焦</td></tr>
+                </tbody>
+            </table>
+
+            <div style="margin: 2rem 0;">
+                <h5>🧩 工具 1：意圖探索器（極度混沌時使用）</h5>
+                <pre><code>---
+## 🧩 意圖探索器 (Intent Explorer)
+
+**第一階段：原始傾訴**
+[不用組織語言，直接把你的困惑、焦慮、想法全部寫出來...]
+
+---
+
+**請 AI 先執行「第一輪洞悉」：**
+1. 從我的描述中提取 3-5 個關鍵詞
+2. 判斷我的問題屬於哪個層次（執行層/戰術層/戰略層）
+3. 提出 3 個澄清問題，幫助我聚焦
+
+**第二階段：回答澄清問題**
+[根據 AI 的提問，回答...]
+
+---
+
+**請 AI 執行「第二輪洞悉」：**
+1. 綜合我的原始描述與澄清回答，重新定義我的核心意圖
+2. 指出我思維中的盲點或矛盾
+3. 建議接下來的行動方案（3 個選項，各有優缺點）
+---</code></pre>
+            </div>
+
+            <div style="margin: 2rem 0;">
+                <h5>🔍 工具 2：意圖校準器（一般困惑時使用）</h5>
+                <pre><code>---
+## 🔍 意圖校準器 (Intent Calibrator)
+
+**我的困惑/想法：**
+[在此描述你模糊的想法、困惑或焦慮...]
+
+**背景脈絡（選填）：**
+- 技術棧：[例如：C#, .NET, Redis]
+- 問題類型：[例如：架構設計, 技術選型, 需求釐清]
+
+---
+
+**請 AI 協助我：**
+1. 分析我的潛在意圖是什麼？
+2. 指出我描述中的邏輯矛盾或語義模糊之處
+3. 拓展我的認知邊界，引導我提出更精確的問題
+4. 建議接下來應該思考的 3 個關鍵問題
+---</code></pre>
+            </div>
+
+            <div style="margin: 2rem 0;">
+                <h5>🎯 工具 3：意圖校準器 Pro（有方向時使用）</h5>
+                <pre><code>---
+## 🎯 意圖校準器 Pro (Intent Calibrator Pro)
+
+**情境類型：**
+[請選擇：技術架構設計 / 需求釐清 / 代碼重構 / 學習路徑規劃 / 工具選型]
+
+**我的困惑/想法：**
+[在此描述你模糊的想法...]
+
+---
+
+**請 AI 根據我選擇的情境類型，協助我：**
+
+**若選擇「技術架構設計」：**
+1. 分析我的架構意圖與實際需求是否一致
+2. 指出可能的過度設計或設計不足之處
+3. 提出 3 個架構決策的關鍵權衡點
+
+(其他情境請參考完整文檔...)
+---</code></pre>
+            </div>
+
+            <p><strong>📌 使用完工具後，請繼續閱讀下一節。</strong></p>
+            <p>如果你想知道這些工具背後的秘密，請在讀完全文後，跳到 <a href="#appendix-b-6">附錄 B.6</a>。</p>
+            <hr style="border:0; border-top:1px dashed #ccc; margin: 2rem 0;">
+            <!-- END OF NEW SECTION 5.0 -->
+
             
 
             <h3>5.1 第一階段：戰略錨定與缺口分析 (Strategic Anchoring) —— 驅使者的規劃</h3>
@@ -892,180 +989,101 @@
         </section>
 
         <section id="appendix-b" class="appendix-b-section">
-            <h2>附錄 B：認知實驗——自指系統的體驗</h2>
-            
-            <h3>B.1 什麼是「元註解」？</h3>
-            <p>在正文中，我埋入了一些「元註解」，引導你發現這篇文章的遞迴結構。</p>
-            <p>這些元註解不是事後加上的「註釋」，而是文章生成過程中的<strong>「認知炸彈」</strong>——它們會在你閱讀時突然引爆，讓你意識到：</p>
+            <div class="warning-box" style="border: 1px solid #ffcc00; background: rgba(255, 204, 0, 0.1); padding: 1rem; border-radius: 8px; margin-bottom: 2rem;">
+                <strong>⚠️ 警告</strong><br>
+                這個附錄包含多個「認知陷阱」。當你讀完某些章節後，你會發現：<strong>這些內容本身，就是用它所描述的方法生成的。</strong><br>
+                這不是一個「巧合」，而是一個「刻意設計」。如果你準備好體驗這種「遞迴」，請繼續閱讀。
+            </div>
+
+            <h3>B.1 實驗設計：讓讀者體驗「代碼即文本」</h3>
+            <p>在附錄 A 中，我揭露了這篇文章的「編譯日誌」。但那只是「結果」的展示。現在，我要讓你體驗「過程」本身。</p>
+
+            <h3>B.2 步驟 1：閱讀以下這段「元提示」</h3>
             <blockquote class="thought-quote">
-                「等等，我現在讀到的這段話，是 AI 寫的？還是 Jay 寫的？還是 AI 在模擬 Jay 的思維來寫的？」
-            </blockquote>
-            <p>以下是完整收集。</p>
-
-            <h3>B.2 元註解彩蛋集</h3>
-
-            <div class="meta-annotation">
-                <h4>元註解 #1（第一章）</h4>
-                <blockquote>
-                    注意這個詞：「顯影」。這不是我原本使用的詞彙。<br><br>
-                    這是 AI 在理解我的意圖後，從攝影學中借用的隱喻。<br><br>
-                    這就是我說的「結晶化」——AI 幫我找到了更精確的語言。
-                </blockquote>
-            </div>
-
-            <div class="meta-annotation">
-                <h4>元註解 #2（第一章）</h4>
-                <blockquote>
-                    「本體論」這個詞，是我在與 AI 對話中逐漸形成的。<br><br>
-                    一開始我只是說「我想定義一套規則」。<br><br>
-                    AI 回應：「你這是在建立一個本體論 (Ontology)」。<br><br>
-                    我查了這個詞，發現它完美地描述了我在做的事。<br><br>
-                    這就是協作的價值：AI 幫我找到了我思想的「真名」。
-                </blockquote>
-            </div>
-
-            <div class="meta-annotation">
-                <h4>元註解 #3（第五章）</h4>
-                <blockquote>
-                    你注意到了嗎？這一章描述的「四階段協作流程」，正是我用來生成這篇文章的流程。<br><br>
-                    你現在閱讀的文字，就是這個流程的輸出。<br><br>
-                    這是一個自指（Self-Referential）的實踐。
-                </blockquote>
-            </div>
-
-            <div class="meta-annotation">
-                <h4>元註解 #4（第五章）</h4>
-                <blockquote>
-                    對於這篇文章，我的「戰略錨定」是：<br><br>
-                    「我想寫一篇文章，展示我如何用 AI 來建構代碼系統。」<br><br>
-                    然後我問 AI：「這篇文章應該包含哪些章節？」<br><br>
-                    AI 給了我一個框架：工具論、方法論、目的論、案例分析、協作流程。<br><br>
-                    這就是「設計先行」。
-                </blockquote>
-            </div>
-
-            <div class="meta-annotation">
-                <h4>元註解 #5（第五章）</h4>
-                <blockquote>
-                    對於這篇文章，我同樣發起了「代理人戰爭」。<br><br>
-                    我讓 AI 扮演 12 位不同領域的專家，對這篇文章進行批判。<br><br>
-                    你在附錄 A 中會看到這些批判的完整記錄。<br><br>
-                    那些批判不是我自己想出來的，而是 AI 模擬不同專家視角後的產物。<br><br>
-                    這就是「代理人戰爭」的威力：<br><br>
-                    <strong>我用 AI 來攻擊我自己的思想，找出盲點。</strong>
-                </blockquote>
-            </div>
-
-            <div class="meta-annotation">
-                <h4>元註解 #6（附錄 B）</h4>
-                <blockquote>
-                    你現在正在閱讀的這個附錄，就是「情境演繹」的產物。<br><br>
-                    我問 AI：「如果讀者讀到這裡，會有什麼感受？會產生什麼疑問？」<br><br>
-                    AI 回答：「他們可能會質疑這篇文章的作者身份。」<br><br>
-                    於是我說：「那就把這個質疑變成內容的一部分。」<br><br>
-                    這就是你現在看到的附錄 B。
-                </blockquote>
-            </div>
-
-            <div class="meta-annotation">
-                <h4>元註解 #7（附錄 B）</h4>
-                <blockquote>
-                    最後一個彩蛋：<br><br>
-                    這些「元註解」本身，也是 AI 協助生成的。<br><br>
-                    我只是說：「我想在文章中埋入一些元註解，讓讀者意識到這篇文章的遞迴結構。」<br><br>
-                    AI 說：「那我們可以在每個關鍵點插入一個元註解，並在附錄 B 中揭露它們。」<br><br>
-                    所以，這個「揭露元註解的元註解」，也是元註解的一部分。<br><br>
-                    這就是無限遞迴。
-                </blockquote>
-            </div>
-
-            <h3>B.3 哲學終局：誰是作者？</h3>
-            <p>經過這些揭露，我們回到最初的問題：</p>
-            <p><strong>這篇文章的作者是誰？</strong></p>
-            
-            <h4>傳統答案</h4>
-            <p>Jay（我）</p>
-            
-            <h4>但真實情況是：</h4>
-            <ul>
-                <li>意圖來自我</li>
-                <li>框架由我與 AI 共同設計</li>
-                <li>內容由 AI 生成，我審查</li>
-                <li>批判由 AI 模擬的專家提出</li>
-                <li>修正由我決策，AI 執行</li>
-                <li>最終形態是我與 AI 多輪迭代的收斂結果</li>
-            </ul>
-            
-            <h4>所以，更精確的答案是：</h4>
-            <p><strong>這篇文章的作者是「Jay + AI」這個協作系統。</strong></p>
-            
-            <h4>但這個答案仍然不夠精確，因為：</h4>
-            <ul>
-                <li>AI 不是一個固定的實體，而是一個動態的過程</li>
-                <li>我也不是一個固定的實體，我在這個過程中也在學習、改變</li>
-                <li>這篇文章本身也在不斷迭代，它是一個「活文件」(Living Document)</li>
-            </ul>
-            
-            <h4>所以，最終的答案是：</h4>
-            <blockquote class="final-answer">
-                <strong>作者是這個迭代過程本身。</strong>
-            </blockquote>
-            <p>這不是哲學遊戲，而是 AI 時代創作本質的真實寫照。</p>
-
-            <h3>B.4 實踐啟示：你可以如何應用？</h3>
-            <p>如果你讀到這裡，可能會想：「這對我有什麼用？」</p>
-            <p>以下是三個層次的應用：</p>
-
-            <div class="application-levels">
-                <div class="level-card">
-                    <h4>層次一：工具層（最淺）</h4>
-                    <ul>
-                        <li>學會用 AI 生成代碼、文章、設計</li>
-                        <li>這是大多數人停留的層次</li>
-                    </ul>
-                </div>
-                <div class="level-card">
-                    <h4>層次二：方法層（中等）</h4>
-                    <ul>
-                        <li>學會用「代理人戰爭」來審查自己的產出</li>
-                        <li>學會用「情境演繹」來測試設計</li>
-                        <li>學會用「戰略錨定」來規劃複雜任務</li>
-                    </ul>
-                </div>
-                <div class="level-card highlight">
-                    <h4>層次三：認知層（最深）</h4>
-                    <ul>
-                        <li>意識到「作者」、「開發者」這些身份正在被重新定義</li>
-                        <li>學會在「驅使者」、「監看者」、「學習者」之間切換</li>
-                        <li>建立自己的「本體論」，定義你的系統世界觀</li>
-                    </ul>
-                </div>
-            </div>
-
-            <p><strong>我希望你能達到層次三。</strong></p>
-            <p>因為只有在那個層次，你才能真正理解這篇文章的核心：</p>
-            <blockquote>
-                不是 AI 讓你變強，而是你學會了如何驅使 AI，並在這個過程中重構了自己的思維模型。
+                「我想寫一個附錄，讓讀者體驗『自指系統』的認知過程。<br>
+                請分析我的意圖，告訴我：<br>
+                1. 我想傳達什麼？<br>
+                2. 如何設計一個『認知陷阱』，讓讀者在閱讀過程中產生『頓悟』？<br>
+                3. 請給我一個具體的結構建議。」
             </blockquote>
 
-            <h3>B.5 最後的遞迴：這個附錄本身</h3>
-            <p>你可能已經猜到了：</p>
-            <p><strong>這個附錄本身，也是按照「四階段協作流程」生成的。</strong></p>
-            <ul>
-                <li><strong>戰略錨定</strong>：我想要一個附錄，展示這篇文章的遞迴結構</li>
-                <li><strong>代理人戰爭</strong>：我讓 AI 扮演讀者，質疑這篇文章的真實性</li>
-                <li><strong>情境演繹</strong>：我讓 AI 模擬讀者閱讀這個附錄時的心理狀態</li>
-                <li><strong>交付提交</strong>：你現在看到的這個版本</li>
-            </ul>
-            
-            <h4>所以，這個附錄是：</h4>
+            <h3>B.3 步驟 2：觀察 AI 的回應（真實記錄）</h3>
+            <blockquote class="ai-response-quote" style="border-left: 4px solid var(--accent); padding-left: 1rem; color: var(--text-muted);">
+                「你的意圖是讓讀者『親身體驗遞迴』。<br><br>
+                <strong>認知陷阱的設計</strong>：<br>
+                1. 先讓讀者閱讀一段『如何生成這個附錄』的描述<br>
+                2. 然後揭露：『這段描述本身就是用這個方法生成的』<br>
+                3. 讀者會產生一種『我正在讀的內容，正在描述它自己如何被生成』的遞迴感<br><br>
+                <strong>結構建議</strong>：<br>
+                - 第一部分：實驗設計（你現在正在讀的這一段）<br>
+                - 第二部分：AI 的回應（就是這一段）<br>
+                - 第三部分：揭露（下一段）」
+            </blockquote>
+
+            <h3>B.4 步驟 3：揭露</h3>
+            <p><strong>你有沒有發現？</strong></p>
+            <p>你剛才讀到的「步驟 1」和「步驟 2」，就是我與 AI 的真實對話記錄。而「步驟 3」（也就是你現在正在讀的這一段），也是 AI 建議我寫的。</p>
+            <p><strong>這就是「自指系統」的體驗。</strong>你正在閱讀一段文字，而這段文字正在描述它自己是如何被生成的。</p>
+
+            <h3>B.5 步驟 4：反思</h3>
+            <p>現在，請暫停 10 秒，問自己：</p>
             <ol>
-                <li><strong>一個產品</strong>（它是文章的一部分）</li>
-                <li><strong>一個示範</strong>（它展示了方法論）</li>
-                <li><strong>一個鏡子</strong>（它反射了整篇文章的結構）</li>
-                <li><strong>一個遞迴</strong>（它描述了生成它自己的過程）</li>
+                <li>我剛才經歷了什麼？</li>
+                <li>這種「遞迴」的感覺，和我平常寫代碼時的感覺有什麼不同？</li>
+                <li>如果我把『文章』替換成『代碼』，這個過程還成立嗎？</li>
             </ol>
-            <p>這就是「代碼的淬鍊」在文本層面的完整體現。</p>
+            <p>如果你的答案是「成立」，那麼恭喜你：<strong>你已經內化了「代碼即文本，文本即代碼」的認知模型。</strong></p>
+
+            <hr style="margin: 3rem 0;">
+
+            <h3 id="appendix-b-6">B.6 工具的遞迴：你剛才用的是什麼？</h3>
+            <div class="note-box">
+                <strong>⚠️ 重要提示</strong><br>
+                如果你在第五章使用了任何一個工具（意圖探索器 / 意圖校準器），請務必閱讀這一節。
+            </div>
+
+            <h4>第一層揭秘：工具的結構</h4>
+            <p>如果你仔細觀察 5.0.2 的工具結構，你會發現它們就是文章核心方法論的縮影：</p>
+            <ul>
+                <li><strong>意圖探索器</strong> 的「兩輪洞悉」 = <strong>5.0 點火 + 5.1 戰略錨定 + 5.2 代理人戰爭</strong></li>
+                <li><strong>意圖校準器 Pro</strong> 的「情境選擇」 = <strong>5.2 代理人戰爭</strong>（讓 AI 扮演特定專家）</li>
+            </ul>
+            <p>你正在驅使 AI 扮演不同的專家角色，來審查你自己的思維。</p>
+
+            <h4>第二層揭秘：工具的生成過程</h4>
+            <p>這三個工具是怎麼來的？是我用「意圖校準器」的方法，生成了「意圖校準器」。</p>
+            <p>我對 AI 說：「我想設計一個工具，幫助讀者在極度混沌時，能夠提取出問題。」AI 分析了我的意圖，並建議了這個結構。</p>
+
+            <h4>第三層揭秘：遞迴的本質</h4>
+            <div class="code-block" style="background: var(--bg-card); padding: 1rem; font-family: var(--font-mono); font-size: 0.9rem;">
+【我】用「意圖校準器」的方法<br>
+&nbsp;↓<br>
+【生成】了「意圖校準器」工具<br>
+&nbsp;↓<br>
+【你】用「意圖校準器」工具<br>
+&nbsp;↓<br>
+【體驗】了「意圖校準器」的生成過程<br>
+&nbsp;↓<br>
+【你】現在閱讀這段揭秘<br>
+&nbsp;↓<br>
+【你】又在用「意圖校準器」理解「意圖校準器」
+            </div>
+            <p><strong>這就是無限遞迴。這就是「代碼即文本，文本即代碼」的真實含義。</strong></p>
+
+            <h4>第四層揭秘：這篇文章本身</h4>
+            <p>這篇文章的作者是誰？</p>
+            <p>傳統答案是 Jay。但真實情況是：意圖來自我，框架由我與 AI 共同設計，內容由 AI 生成並由我審查，批判由 AI 模擬的專家提出。</p>
+            <p><strong>作者是「Jay + AI」這個協作系統，或者更精確地說，作者是這個迭代過程本身。</strong></p>
+
+            <h3 id="appendix-b-7">B.7 步驟 5：實踐</h3>
+            <p>現在，打開你的 AI 對話框，試試看：</p>
+            <ul>
+                <li><strong>選項 1：使用「工具生成器」</strong>（創造屬於你自己的工具）</li>
+                <li><strong>選項 2：改進現有工具</strong>（用意圖校準器來分析它的不足）</li>
+                <li><strong>選項 3：創造新的遞迴</strong>（寫一篇你自己的文章，埋入你自己的認知炸彈）</li>
+            </ul>
+            <p>當你完成任何一個選項後，你會發現：<strong>你已經不再需要這篇文章了。因為你已經內化了「意圖校準」的思維模式。那時，你就真正成為了「驅使者」。</strong></p>
+
         </section>
 
         <section id="expectations">
@@ -1210,7 +1228,7 @@
         <!-- ========================================== -->
 
         <footer class="author-sign">
-            <p>— Jay<br><span style="font-size:0.9rem; color:var(--text-muted);">驅使者 | 監看者 | 學習者</span><br>2025-12-07</p>
+            <p>— Jay<br><span style="font-size:0.9rem; color:var(--text-muted);">驅使者 | 監看者 | 學習者</span><br>2025-12-08</p>
         </footer>
     </div>
 
